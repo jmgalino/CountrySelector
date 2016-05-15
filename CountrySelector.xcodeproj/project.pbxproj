@@ -15,6 +15,7 @@
 		BA7944421CE8852F0077E976 /* CountrySelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA7944411CE8852F0077E976 /* CountrySelectorTests.m */; };
 		BA79444D1CE885300077E976 /* CountrySelectorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA79444C1CE885300077E976 /* CountrySelectorUITests.m */; };
 		BA79445C1CE8868A0077E976 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA79445B1CE8868A0077E976 /* MainViewController.m */; };
+		BA79445F1CE896FB0077E976 /* CountryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA79445E1CE896FB0077E976 /* CountryTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BA79444E1CE885300077E976 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA79445A1CE8868A0077E976 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		BA79445B1CE8868A0077E976 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		BA79445D1CE896FB0077E976 /* CountryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryTableViewController.h; sourceTree = "<group>"; };
+		BA79445E1CE896FB0077E976 /* CountryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BA79442B1CE8852F0077E976 /* AppDelegate.m */,
 				BA79445A1CE8868A0077E976 /* MainViewController.h */,
 				BA79445B1CE8868A0077E976 /* MainViewController.m */,
+				BA79445D1CE896FB0077E976 /* CountryTableViewController.h */,
+				BA79445E1CE896FB0077E976 /* CountryTableViewController.m */,
 				BA7944301CE8852F0077E976 /* Main.storyboard */,
 				BA7944331CE8852F0077E976 /* Assets.xcassets */,
 				BA7944351CE8852F0077E976 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				BA79442C1CE8852F0077E976 /* AppDelegate.m in Sources */,
 				BA79445C1CE8868A0077E976 /* MainViewController.m in Sources */,
+				BA79445F1CE896FB0077E976 /* CountryTableViewController.m in Sources */,
 				BA7944291CE8852F0077E976 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
